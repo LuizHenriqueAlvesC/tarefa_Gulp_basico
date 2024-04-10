@@ -18,7 +18,7 @@ function comprimeJavaScript() {
 }
 
 function compilaSass() {
-    return gulp.src('./source/styles/*.scss')
+    return gulp.src('./source/styles/main.scss')
     .pipe(sass({
         outputStyle: 'compressed'
     }))
