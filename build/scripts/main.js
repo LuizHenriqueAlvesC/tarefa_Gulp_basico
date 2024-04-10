@@ -1,1 +1,1 @@
-const divisao=require("./main");console.log("divisao",divisao(50,2));
+const divisao=require("./variaveis");console.log("divisao",divisao(50,2));
